@@ -1,0 +1,20 @@
+.profile {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.subtitle {
+    font-size: 16pt;
+}
+
+.subtitle span {
+    font-weight: 600;
+}
+
+.green {
+    color: lightseagreen;
+}
+
+.blue {
+    color: dodgerblue;
+}

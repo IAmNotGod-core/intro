@@ -1,0 +1,31 @@
+.container {
+    width: 720px;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mini-card {
+    width: 230px;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: #213547;
+    border: 1px solid #cfcfcf;
+    border-radius: 0.3rem;
+}
+
+.card-icon {
+    font-size: x-large;
+}
+
+.card-label {
+    flex-grow: 1;
+}
+
+.mini-card:hover {
+    border-color: #64c1ff;
+}
