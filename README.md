@@ -1,8 +1,5 @@
-# React + Vite
+# Simple Portofolio Pages Using React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! My name is Lintang Ksatria, currently I am study in Dian Nuswantoro University taking Informatics Engineering as major. I interested to programming and graphic design. This is my first portofolio using React and GitHub Pages
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a href='https://iamnotgod-core.github.io/intro'>Visit my page</a>
