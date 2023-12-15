@@ -1,12 +1,11 @@
 import { faLinkedin,faGithub,faTwitter,faFacebook,faDiscord } from '@fortawesome/free-brands-svg-icons'
-import './Social.css'
 import SCard from './SCard'
 
 export default function Social() {
     return(
         <>
             <h2>Connect with me!</h2>
-            <div className="container">
+            <div className="container md:w-[720px] py-[10px] px-0 flex flex-wrap gap-[10px]">
                 <SCard icon={faLinkedin} label={"LinkedIn"} link={"https://www.linkedin.com/in/lintang-ksatria-7ab614252/"} />
                 <SCard icon={faGithub} label={"GitHub"} link={"https://github.com/IAmNotGod-core"} />
                 <SCard icon={faTwitter} label={"Twitter"} link={"https://twitter.com/Lintang_Ksatria"} />

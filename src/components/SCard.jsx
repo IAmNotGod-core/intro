@@ -5,7 +5,7 @@ export default function SCard({ icon, label, link }) {
     return (
         <>
             <a href={ link } target="_blank" rel="noopener noreferrer">
-                <div className="mini-card">
+                <div className="mini-card hover:border-[#64c1ff]">
                     <div className="card-icon">
                         <FontAwesomeIcon icon={ icon } />
                     </div>
