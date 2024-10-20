@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Social.css'
 
-export default function SCard({ icon, label, link }) {
+export default function SocialMediaLink({ link, icon, children }) {
     return (
         <>
             <a href={ link } target="_blank" rel="noopener noreferrer">
@@ -10,7 +10,7 @@ export default function SCard({ icon, label, link }) {
                         <FontAwesomeIcon icon={ icon } />
                     </div>
                     <div className="card-label">
-                        <p>{ label }</p>
+                        <p>{ children }</p>
                     </div>                    
                 </div>
             </a>
