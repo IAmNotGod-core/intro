@@ -10,7 +10,11 @@ function App() {
     <>
       <ParticlesBackground />
       <Header />
-      <Card title={"Who Am I"}/>
+      <Card title={"Who Am I"}>
+        <code>
+          Hi there! My name is Lintang Ksatria. Currently, I am studying at Dian Nuswantoro University, majoring in Informatics Engineering. I am interested in programming and graphic design.
+        </code>
+      </Card>
       <Social />
     </>
   )

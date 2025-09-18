@@ -1,6 +1,6 @@
 import './Card.css'
 
-export default function Card({ title }) {
+export default function Card({ title, children }) {
     return( 
         <>
         <div className="max-w-[720px] mx-[10px] md:mx-auto my-[15px] rounded-2xl bg-[#2c2c2c]">
@@ -15,9 +15,7 @@ export default function Card({ title }) {
                 </div>
             </div>
             <div className="card-body">
-                <code>
-                    Hi there! My name is Lintang Ksatria. Currently, I am studying at Dian Nuswantoro University, majoring in Informatics Engineering. I am interested in programming and graphic design.
-                </code>
+                {children}
             </div>
         </div>
         </>
