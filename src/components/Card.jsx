@@ -16,7 +16,7 @@ export default function Card({ title }) {
             </div>
             <div className="card-body">
                 <code>
-                    My name is Lintang Ksatria, currently I am study in Dian Nuswantoro University taking Informatics Engineering as major. I interested to programming and graphic design.
+                    Hi there! My name is Lintang Ksatria. Currently, I am studying at Dian Nuswantoro University, majoring in Informatics Engineering. I am interested in programming and graphic design.
                 </code>
             </div>
         </div>
