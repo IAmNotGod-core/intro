@@ -11,6 +11,14 @@ export default function ParticlesBackground() {
     const particlesLoaded = useCallback(async container => {
         await console.log(container)
     }, [])
+    
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+            window.location.reload();
+        });
+    }
 
     return (
         <Particles
@@ -20,7 +28,7 @@ export default function ParticlesBackground() {
             options={{
                 background: {
                     color: {
-                        value: "#ffffff"
+                        value: isDarkMode ? "#1a1a1a" : "#ffffff"
                     }
                 },
                 fpsLimit: 120,
@@ -30,10 +38,10 @@ export default function ParticlesBackground() {
                 },
                 particles: {
                     color: {
-                        value: "#364459",
+                        value: isDarkMode ? "#ffffff" : "#364459",
                     },
                     links: {
-                        color: "#364459",
+                        color: isDarkMode ? "#ffffff" : "#364459",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
